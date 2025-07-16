@@ -11,5 +11,4 @@ export const submitAction = async(e) => {
     let textFolder = await fs.writeFile("File.txt",`Name: ${name}\nAddress: ${address}`, 'utf8');
     console.log("File written successfully");
     
-
 }
